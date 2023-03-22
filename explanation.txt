@@ -1,0 +1,28 @@
+In Yahtzee you have to roll 5 dices and put the dices into a category, if you
+still have dices left you can roll again. You can do this up to three times.
+There are two sections with different combinations to put the dice in called
+the "Upper section" and the "Lower section".
+
+Upper section:
+    >Aces(1) = 1 point per dice
+    >Twos(2) = 2 points per dice
+    >Threes(3) = 3 points per dice
+    >Fours(4) = 4 points per dice
+    >Fives(5) = 5 points per dice
+    >Sixes(6) = 6 points per dice
+
+Lower section:
+    >3 of a kind(3 of the same dices) = 3 of the same dice count up + the left-overs
+    >4 of a kind(4 of the same dices) = 4 of the same dice count up + left-overs
+    >full house(3 of the same dice + 2 of the same dice) = always 25 points
+    >Small straight(for example 1, 2, 3, 4, 6) = always 30 points
+    >Large straight(for example 1, 2, 3, 3, 4, 5) = always 40 points
+    >YAHTZEE(5 of the same dices) = first yahtzee is worth 50, every yahtzee after that is 100 points
+    >Chance(If you cant fill in any other box, you can use chance and fill in any combination)
+
+
+
+
+
+
+
