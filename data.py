@@ -1,4 +1,4 @@
-class scoreCardTemplate:
+class upper:
     def __init__(self, aces, twos, threes, fours, fives, sixes):
         self.aces = aces
         self.twos = twos
@@ -8,11 +8,14 @@ class scoreCardTemplate:
         self.sixes = sixes
 
 
-scoreCard = [
-    {"round1": scoreCardTemplate(0, 0, 0, 0, 0, 0)},
-    {"round2": scoreCardTemplate(0, 0, 0, 0, 0, 0)},
-    {"round3": scoreCardTemplate(0, 0, 0, 0, 0, 0)},
-    {"round4": scoreCardTemplate(0, 0, 0, 0, 0, 0)},
-    {"round5": scoreCardTemplate(0, 0, 0, 0, 0, 0)},
-    {"round6": scoreCardTemplate(0, 0, 0, 0, 0, 0)},
-]
+class lower:
+    def __init__(self, threeKind, fourKind, fullHouse, smStraight, lgStraight, yahtzee, chance):
+        self.threeKind = threeKind
+        self.fourKind = fourKind
+        self.fullHouse = fullHouse
+        self.smStraight = smStraight
+        self.lgStraight = lgStraight
+        self.yahtzee = yahtzee
+        self.chance = chance
+
+

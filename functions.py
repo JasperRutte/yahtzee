@@ -12,7 +12,7 @@ def askUser(question: str, options: list) -> str:  # function for asking user qu
 def rollDice(amount: int) -> list:  # function for giving random dices
     dices = []
     for number in range(amount):
-        randomNumb = random.randint(1, 7)
+        randomNumb = random.randint(1, 6)
         dices.append(randomNumb)
     return dices
 
